@@ -1,9 +1,17 @@
-🚀 DevFusion – A Community Platform for Developers
+## 🚀 DevFusion – A Community Platform for Developers
 
 DevFusion is a full-stack community platform built for developers to connect, collaborate, and communicate in real time.
 From real-time chat to secure backend services and production-grade deployment — this project showcases end-to-end system design & deployment.
 
-🌐 Live Demo: https://devfusion.co.in
+## 📸 Screenshots
+
+![Screenshot](screenshots/Screenshot%202025-12-19%20045754.png)
+![Screenshot](screenshots/Screenshot%202025-12-19%20045804.png)
+![Screenshot](screenshots/Screenshot%202025-12-19%20050019.png)
+![Screenshot](screenshots/Screenshot%202025-12-19%20050036.png)
+![Screenshot](screenshots/Screenshot%202025-12-19%20050053.png)
+
+## 🌐 Live Demo: https://devfusion.co.in
 
 ✨ Features
 💬 Real-Time Chat using Socket.io (no refresh, instant messaging)
@@ -16,7 +24,7 @@ From real-time chat to secure backend services and production-grade deployment �
 🌐 Reverse Proxy & Security via NGINX
 📱 Fully responsive across devices
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Frontend
 React
