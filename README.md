@@ -5,11 +5,11 @@ From real-time chat to secure backend services and production-grade deployment �
 
 ## 📸 Screenshots
 
-![Screenshot](screenshots/Screenshot%202025-12-19%20045754.png)
-![Screenshot](screenshots/Screenshot%202025-12-19%20045804.png)
-![Screenshot](screenshots/Screenshot%202025-12-19%20050019.png)
-![Screenshot](screenshots/Screenshot%202025-12-19%20050036.png)
-![Screenshot](screenshots/Screenshot%202025-12-19%20050053.png)
+![App Screenshot](./Screenshot%202025-12-19%20045754.png)
+![App Screenshot](./Screenshot%202025-12-19%20045804.png)
+![App Screenshot](./Screenshot%202025-12-19%20050019.png)
+![App Screenshot](./Screenshot%202025-12-19%20050036.png)
+![App Screenshot](./Screenshot%202025-12-19%20050053.png)
 
 ## 🌐 Live Demo: https://devfusion.co.in
 
