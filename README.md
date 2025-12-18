@@ -1,122 +1,42 @@
-# 🚀 DevFusion — Connect, Collaborate & Code
+🚀 DevFusion – A Community Platform for Developers
 
-<div align="center">
-  <img src="https://devfusion.co.in/preview.jpg" alt="DevFusion Preview" width="800">
-</div>
+DevFusion is a full-stack community platform built for developers to connect, collaborate, and communicate in real time.
+From real-time chat to secure backend services and production-grade deployment — this project showcases end-to-end system design & deployment.
 
-**DevFusion** is a premium social platform for developers to connect, chat, and collaborate — built with performance, scalability & beautiful design in mind.
+🌐 Live Demo: https://devfusion.co.in
 
-🌐 **Live Demo:** [https://devfusion.co.in](https://devfusion.co.in)
+✨ Features
+💬 Real-Time Chat using Socket.io (no refresh, instant messaging)
+🎨 Modern & Responsive UI built with React + Tailwind CSS
+🔐 Secure Backend with Node.js, Express & MongoDB
+📬 Automated Email Notifications using Amazon SES
+⏰ Cron Jobs for background and scheduled tasks
+🖥️ Production Deployment on AWS EC2
+⚙️ Process Management with PM2
+🌐 Reverse Proxy & Security via NGINX
+📱 Fully responsive across devices
 
----
+🛠️ Tech Stack
 
+Frontend
+React
+Tailwind CSS
+Socket.io Client
 
-
----
-
-## 🏗️ Project Architecture
-
-graph TD
-  subgraph Frontend [React + Vite + Tailwind]
-    A[User Interface] --> B[API Calls via Axios]
-  end
-
-  subgraph Backend [Node.js + Express + MongoDB]
-    B --> C[Express Server]
-    C --> D[MongoDB - User, Chats, Connections]
-    C --> E[Socket.io - Real-time Chat]
-    C --> F[Cron Jobs - Automation]
-    C --> G[Amazon SES - Email Service]
-  end
-
-  subgraph Deployment [AWS EC2 + Nginx]
-    A --> H[Nginx Reverse Proxy]
-    C --> H
-    H --> Internet
-  end
-
-✨ Key Features
-✅ Developer Profiles & Connections
-✅ Realtime Chat via Socket.io
-✅ Secure Authentication (JWT & Cookies)
-✅ Cron Jobs for Automation
-✅ Amazon SES for Transactional Emails
-✅ Premium UI with TailwindCSS
-✅ Fully Deployed on AWS EC2 with Nginx
-
-⚙️ Tech Stack
-Frontend:React.js, Redux Toolkit, TailwindCSS, Vite, Lucide Icons
-Backend: Node.js, Express.js
-MongoDB (Mongoose)
-Socket.io
-JWT Authentication
+Backend
 Node.js
 Express.js
-MongoDB (Mongoose)
+MongoDB
 Socket.io
-JWT Authentication
+Cron Jobs
 
-Deployment:
+DevOps & Infrastructure
+AWS EC2
 
-AWS EC2 (Ubuntu)
+PM2
 
-Nginx Reverse Proxy
+NGINX
 
-PM2 Process Manager
+Amazon SES
 
-Let's Encrypt SSL
-
-Services:
-
-Amazon SES (Emails)
-
-Cron Jobs (Automation)
-
-🔧 Local Setup
-Prerequisites
-Node.js (v16+)
-
-MongoDB Atlas URI
-
-Git
-
-Installation
-Clone repositories:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/devfusion-frontend.git
-git clone https://github.com/yourusername/devfusion-backend.git
-Backend Setup:
-
-bash
-Copy
-Edit
-cd devfusion-backend
-npm install
-cp .env.example .env
-# Edit .env with your credentials
-npm run dev
-Frontend Setup:
-
-bash
-Copy
-Edit
-cd devfusion-frontend
-npm install
-npm run dev
-Visit: http://localhost:5173
-
-
-
-💸 And yeah, bought my first domain ever for this project — feels like official dev business now!
-
-💡 Future Improvements
-
-🔔 Notifications System (Real-time Alerts)
-✍️ Enhanced Chat UI with Typing Indicators
-🔍 User Search & Recommendations
-👥 Group Chats & Code Sharing
-
-
+Custom Domain
